@@ -1,0 +1,18 @@
+.firstborder {
+    background-color: #abfe78;
+    position: relative;
+    width: auto;
+    height: 40vw;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.title1 {
+	color: white;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #23430C;
+    width: 400px;
+    font-size: 5vh;
+    position: absolute;
+    top: 20px; 
+    left: 10vw;
+}
