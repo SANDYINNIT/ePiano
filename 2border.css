@@ -1,0 +1,46 @@
+.secondborder {
+    background-color: #fff;
+    position: relative;
+    width: auto;
+    height: 40vw;
+    font-family: 'Lexend Deca', sans-serif;
+    max-height: auto;
+}
+
+.text2border {
+    background-color: #abfe78;
+    position: relative;
+    width: 50%;
+    height: 40vw;
+    left: 50%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.sub2border {
+    background-color: #fff;
+    position: relative;
+    width: 50%;
+    height: 40vw;
+    top: -48em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sub1 {
+    position: relative;
+    width: 35em;
+    font-size: larger;
+    text-align: center;
+    left: 10%;
+    top: 5%;
+}
+
+.title2 {
+	color: black;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 0px 1px 4px #23430C;
+    width: 400px;
+    font-size: 5vh;
+    position: absolute;
+    top: 45%;
+    right: 10vw;
+    z-index: 1;
+}
