@@ -4,6 +4,7 @@
     width: auto;
     height: 40vw;
     font-family: 'Lexend Deca', sans-serif; 
+    border-bottom: 0.1em black solid;
 }
 
 .title1 {

@@ -5,6 +5,7 @@
     height: 40vw;
     font-family: 'Lexend Deca', sans-serif;
     max-height: auto;
+    border-bottom: 0.1em black solid;
 }
 
 .text2border {
@@ -19,9 +20,15 @@
     background-color: #fff;
     position: relative;
     width: 50%;
-    height: 40vw;
-    top: -48em;
+    height: 39vw;
+    top: -78vh;
     font-family: 'Lexend Deca', sans-serif;
+}
+
+.subtitles1 {
+    position: absolute;
+    height: 35vw;
+    top: 10%;
 }
 
 .sub1 {
@@ -31,6 +38,38 @@
     text-align: center;
     left: 10%;
     top: 5%;
+}
+.sub2 {
+    position: relative;
+    width: 35em;
+    font-size: larger;
+    text-align: center;
+    left: 10%;
+    top: 10%;
+}
+.sub3 {
+    position: relative;
+    width: 35em;
+    font-size: larger;
+    text-align: center;
+    left: 10%;
+    top: 15%;
+}
+.sub4 {
+    position: relative;
+    width: 35em;
+    font-size: larger;
+    text-align: center;
+    left: 10%;
+    top: 20%;
+}
+.sub5 {
+    position: relative;
+    width: 35em;
+    font-size: larger;
+    text-align: center;
+    left: 10%;
+    top: 20%;
 }
 
 .title2 {
