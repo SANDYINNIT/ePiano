@@ -14,3 +14,19 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 } 
+
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  // Get form values
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  // You can send the form data to your server here using AJAX
+
+  // For this example, we'll just display a confirmation message
+  document.getElementById('feedbackForm').reset(); // Reset form fields
+  document.getElementById('feedbackForm').classList.add('hidden'); // Hide form
+  document.getElementById('confirmation').classList.remove('hidden'); // Show confirmation message
+});

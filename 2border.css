@@ -15,6 +15,7 @@
     height: 40vw;
     left: 50%;
     font-family: 'Lexend Deca', sans-serif;
+    border-bottom: 0.1em black solid;
 }
 .sub2border {
     background-color: #fff;

@@ -43,4 +43,5 @@
 .img1 {
     height: 40vw;
     margin-left: 39.497vw;
+    border-bottom: 0.1em black solid;
 }
