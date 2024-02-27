@@ -4,33 +4,14 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-.menu {
-    background-color: white;
-    border: 4px solid black;
-    width: auto;
-    height: 4rem;
-    font-size: large;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    position: relative;
-    z-index: 1000;
-}
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    /* Add additional styles as needed */
-  }
 
 .xlogo {
     position: absolute;
     text-align: center;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 200%;
+    width: 8%;
     left: 4vh;
 }
 

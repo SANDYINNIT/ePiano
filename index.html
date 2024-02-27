@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="3border.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="menuu.css">
+    <link rel="stylesheet" href="slide.css">
     <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>ePiano</title>
+
+    
 </head>
 <body>
-
-    <nav>
+    <nav class="menu">
         <div class="wrapper">
           <div>
             <img class="xlogo" src="images/Untitled_design-removebg-preview.png" alt=""
@@ -86,6 +88,7 @@
           <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
       </nav>
+      
 
     <!--<div class="menu hmenu" id="stickyMenu">
 
@@ -103,6 +106,7 @@
         <h1 class="title1">
             Latest Release! With Progress!
         </h1>
+        
         <div class="subtitle1">
             Made by:
         </div>
@@ -168,49 +172,41 @@
       
       <ul class="footer__nav">
         <li class="nav__item">
-          <h2 class="nav__title">Media</h2>
+          <h2 class="nav__title">More</h2>
     
           <ul class="nav__ul">
             <li>
-              <a href="#">Online</a>
+              <a href="https://elpuig.xeill.net/">Puig Castellar</a>
             </li>
     
             <li>
-              <a href="#">Print</a>
-            </li>
-                
-            <li>
-              <a href="#">Alternative Ads</a>
+              <a href="ruben.html">weird</a>
             </li>
           </ul>
         </li>
         
         <li class="nav__item nav__item--extra">
-          <h2 class="nav__title">Technology</h2>
+          <h2 class="nav__title">Used</h2>
           
           <ul class="nav__ul nav__ul--extra">
             <li>
-              <a href="#">Hardware Design</a>
+              <a href="https://www.tinkercad.com/">TinkerCad</a>
             </li>
             
             <li>
-              <a href="#">Software Design</a>
+              <a href="https://ca.wikipedia.org/wiki/Hyper_Text_Markup_Language">HTML</a>
             </li>
             
             <li>
-              <a href="#">Digital Signage</a>
+              <a href="https://ca.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>
             </li>
             
             <li>
-              <a href="#">Automation</a>
+              <a href="https://ca.wikipedia.org/wiki/JavaScript">JS</a>
             </li>
             
             <li>
-              <a href="#">Artificial Intelligence</a>
-            </li>
-            
-            <li>
-              <a href="#">IoT</a>
+              <a href="https://en.wikipedia.org/wiki/Computer_science">Computer science</a>
             </li>
           </ul>
         </li>
@@ -235,7 +231,9 @@
       </ul>
       
       <div class="legal">
-        <p>&copy; 2024 ePiano. All rights reserved.</p>
+        <p class="popup" onclick="myFunction()">&copy; 2024 ePiano. All rights reserved.
+            <span class="popuptext" id="myPopup">&copy; don't worry, its a lie, you can copy the code and everything!</span>
+        </p>
         
         <div class="legal__links">
           <span>Made by <span class="heart">♥</span> saija</span>

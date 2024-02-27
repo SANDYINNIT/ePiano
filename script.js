@@ -30,3 +30,10 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
   document.getElementById('feedbackForm').classList.add('hidden'); // Hide form
   document.getElementById('confirmation').classList.remove('hidden'); // Show confirmation message
 });
+
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
