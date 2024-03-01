@@ -1,10 +1,11 @@
 .thirdborder {
     background-color: #abfe78;
     position: relative;
-    width: 50%;
     height: 40vw;
     font-family: 'Lexend Deca', sans-serif; 
     z-index: -6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .title3 {
@@ -15,7 +16,6 @@
     font-size: 5vh;
     position: absolute;
     top: 40%;
-    right: 7vw;
     z-index: 1;
 }
 

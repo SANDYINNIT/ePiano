@@ -1,86 +1,66 @@
 .secondborder {
     background-color: #fff;
     position: relative;
-    width: auto;
-    height: 40vw;
+    width: 100%;
     font-family: 'Lexend Deca', sans-serif;
-    max-height: auto;
     border-bottom: 0.1em black solid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 40vw;
+}
+
+.text2border, .sub2border {
+    padding: 20px;
+    min-width: 0;
+    min-height: 0;
+}
+
+.text2border p, .sub2border p {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 .text2border {
     background-color: #abfe78;
     position: relative;
-    width: 50%;
-    height: 40vw;
-    left: 50%;
     font-family: 'Lexend Deca', sans-serif;
-    border-bottom: 0.1em black solid;
+    grid-column: 2;
+    overflow: hidden;
 }
 .sub2border {
-    background-color: #fff;
+    text-align: justify;
+    grid-column: 1;
+    overflow: hidden;
+    padding: 20px;
+    min-width: 0;
+    min-height: 0;
     position: relative;
-    width: 50%;
-    height: 39vw;
-    top: -78vh;
-    font-family: 'Lexend Deca', sans-serif;
 }
 
 .subtitles1 {
-    position: absolute;
-    height: 35vw;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    width: 35em;
+    font-size: 1vw;
+    text-align: center;
+    left: 10%;
     top: 10%;
 }
 
-.sub1 {
-    position: relative;
-    width: 35em;
-    font-size: larger;
-    text-align: center;
-    left: 10%;
-    top: 5%;
+p {
+    margin-bottom: 30px;
 }
-.sub2 {
-    position: relative;
-    width: 35em;
-    font-size: larger;
-    text-align: center;
-    left: 10%;
-    top: 10%;
-}
-.sub3 {
-    position: relative;
-    width: 35em;
-    font-size: larger;
-    text-align: center;
-    left: 10%;
-    top: 15%;
-}
-.sub4 {
-    position: relative;
-    width: 35em;
-    font-size: larger;
-    text-align: center;
-    left: 10%;
-    top: 20%;
-}
-.sub5 {
-    position: relative;
-    width: 35em;
-    font-size: larger;
-    text-align: center;
-    left: 10%;
-    top: 20%;
-}
+
 
 .title2 {
 	color: black;
 	-webkit-text-stroke: 1px black;
 	text-shadow: 0px 1px 4px #23430C;
-    width: 400px;
     font-size: 5vh;
     position: absolute;
     top: 45%;
-    right: 10vw;
+    right: 35%;
     z-index: 1;
 }
