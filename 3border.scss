@@ -1,0 +1,56 @@
+$darkolivegreen_23430C: #23430c;
+$palegreen_abfe78: #abfe78;
+$white_fff: #ffffff;
+
+.thirdborder {
+  background-color: $palegreen_abfe78;
+  display: grid;
+  font-family: "Lexend Deca", sans-serif;
+  grid-template-columns: 1fr 1fr;
+  height: 40vw;
+  position: relative;
+  z-index: -6;
+}
+
+.title3 {
+  -webkit-text-stroke: 1px black;
+  color: black;
+  font-size: 5vh;
+  left: 5%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 1px 4px $darkolivegreen_23430C;
+  top: 40%;
+  width: 600px;
+  z-index: 1;
+}
+
+.text3border {
+  background-color: $white_fff;
+  font-family: "Lexend Deca", sans-serif;
+  height: 40vw;
+  left: 100%;
+  position: relative;
+  width: 100%;
+  z-index: -6;
+}
+
+.description {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.description2 {
+  margin-bottom: 10px;
+}
+
+.subtitles2 {
+  -webkit-text-stroke: 1px black;
+  color: black;
+  font-size: 3vh;
+  position: absolute;
+  right: 35%;
+  text-shadow: 0 1px 4px $darkolivegreen_23430C;
+  top: 45%;
+  z-index: 1;
+}

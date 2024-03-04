@@ -6,6 +6,7 @@
     border-bottom: 0.1em black solid;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     height: 40vw;
 }
 
