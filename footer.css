@@ -17,6 +17,10 @@
     min-height: 100vh;
     font-family: 'Acumin Pro';
   }
+
+  body  {
+    background-color: lightblue;
+}
   
   .footer {
     display: flex;

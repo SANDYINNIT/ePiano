@@ -2,11 +2,42 @@
 .img2 {
     max-width: 100%;
     height: auto;
-    width: auto;
-    background-size: cover;
+    width: 100%;
     background-position: center;
 }
 
-.pc {
-    
+.lexend {
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.codeborder1 {
+        background-color: white;
+        position: relative;
+        width: auto;
+        height: 9vw;
+        font-family: 'Lexend Deca', sans-serif; 
+        bottom: 1vw;
+        text-align: center;
+        padding: 50px;
+}
+.firstext1 {
+    font-size: 0.8vw;
+}
+.firstext {
+    font-size: 2.8vw;
+}
+
+.codeborder2 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 9vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+}
+
+body  {
+    background-color: lightblue;
 }
