@@ -267,3 +267,26 @@ nav input{
   font-size: 45px;
   font-weight: 600;
 }
+
+body{
+  background: #000;
+  font-family:Arial, Helvetica;
+  font-size:12px;
+  color:#fff;
+}
+
+.menu-arrow {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 2vw;
+  height: 2.5vw;
+  color: white;
+  border-radius: 30px;
+  background: rgba(0,0,0,0.750);
+  outline: none;
+  background:
+    linear-gradient(105eg, transparent 45px, #ddd 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
