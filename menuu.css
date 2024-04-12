@@ -68,7 +68,7 @@ nav .wrapper{
 .nav-links li:hover .drop-menu,
 .nav-links li:hover .mega-box{
   transition: all 0.3s ease;
-  top: 70px;
+  top: 60px;
   opacity: 1;
   visibility: visible;
 }
@@ -186,7 +186,7 @@ nav .wrapper{
     max-height: 0px;
     overflow: hidden;
     box-shadow: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
   }
   #showDrop:checked ~ .drop-menu,
   #showMega:checked ~ .mega-box{
@@ -273,20 +273,4 @@ body{
   font-family:Arial, Helvetica;
   font-size:12px;
   color:#fff;
-}
-
-.menu-arrow {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  font-size: 2vw;
-  height: 2.5vw;
-  color: white;
-  border-radius: 30px;
-  background: rgba(0,0,0,0.750);
-  outline: none;
-  background:
-    linear-gradient(105eg, transparent 45px, #ddd 0) top left;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
 }

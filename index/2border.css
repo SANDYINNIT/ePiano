@@ -48,11 +48,14 @@
     text-align: center;
     left: 10%;
     top: 10%;
+    z-index: 10;
+    color: black;
 }
 
 p {
     margin-bottom: 30px;
 }
+
 
 
 .title2 {
