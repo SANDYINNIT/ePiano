@@ -4,3 +4,47 @@
     width: 100%;
     background-position: center;
 }
+
+
+.prgborder1 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 9vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+}
+
+.firstext1 {z
+    font-size: 0.8vw;
+    color: black;
+}
+
+.firstext {
+    font-size: 2.8vw;
+}
+.pft1 {
+    font-size: 1.8vw;
+}
+
+
+.lexend {
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+body  {
+    background-color: lightblue;
+}
+
+.codeborder2 {
+    background-color: lightcyan;
+    position: relative;
+    width: auto;
+    height: 8vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+}
