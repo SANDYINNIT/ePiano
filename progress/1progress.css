@@ -17,7 +17,24 @@
     padding: 50px;
 }
 
-.firstext1 {z
+.imgborder1 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 30vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.protoandardui {
+    height: auto;
+    width: 20vw;
+}
+
+.firstext1 {
     font-size: 0.8vw;
     color: black;
 }
