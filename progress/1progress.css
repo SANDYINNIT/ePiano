@@ -32,6 +32,7 @@
 .protoandardui {
     height: auto;
     width: 20vw;
+    
 }
 
 .firstext1 {
@@ -64,4 +65,19 @@ body  {
     bottom: 1vw;
     text-align: center;
     padding: 50px;
+}
+.codeborder3 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 8vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+}
+
+.description1 {
+    position: absolute;
+    overflow: hidden;
 }
