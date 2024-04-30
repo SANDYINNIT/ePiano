@@ -74,10 +74,10 @@ body  {
     font-family: 'Lexend Deca', sans-serif; 
     bottom: 1vw;
     text-align: center;
-    padding: 50px;
+    padding: 10px;
+    align-items: center;
 }
 
 .description1 {
     position: absolute;
-    overflow: hidden;
 }
