@@ -1,10 +1,15 @@
-.firstborder {
+/*.firstborder {
     background-color: #abfe78;
     position: relative;
     width: auto;
     height: 40vw;
     font-family: 'Lexend Deca', sans-serif; 
     border-bottom: 0.1em black solid;
+}*/
+
+.firstborder {
+    position: relative;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .title1 {
@@ -39,9 +44,31 @@
     top: 40%; 
     left: 10vw;
 }
+img { max-width: 100%; height: auto; }
 
-.img1 {
+@media screen and (max-width: 768px) {
+    .title1 {
+        font-size: 4vh;
+    }
+    .subtitle1 {
+        font-size: 3vh;
+    }
+    .subtitle2 {
+        font-size: 2.5vh;
+    }
+}
+
+
+/*.img1 {
     height: 40vw;
     margin-left: 39.497vw;
     border-bottom: 0.1em black solid;
+}*/
+
+.img1 {
+    height: auto;
+    margin-left: 39.497vw;
+    max-width: 100%;
+    border-bottom: 0.1em black solid;
+    margin: auto;
 }

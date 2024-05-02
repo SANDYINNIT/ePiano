@@ -143,6 +143,8 @@ nav .wrapper{
   .wrapper .btn{
     display: block;
   }
+
+  
   .wrapper .nav-links{
     position: fixed;
     height: 100vh;
