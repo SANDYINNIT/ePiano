@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="index/1border.css">
     <link rel="stylesheet" href="index/2border.css">
@@ -17,19 +17,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>ePiano</title>
 
 <style>
-  body {
-    font-family: "Lato", sans-serif;
-    }
-  .mySlides {display:none;}
+  body {font-family: "Lato", sans-serif}
+  .mySlides {display: none}
 </style>
 </head>
 <body>
@@ -106,9 +99,8 @@
             </a>
         </div>
     </div>-->
-    <div class="container">  
+    <div class="container w3-content" style="max-width:2000px;margin-top:46px">  
       <div class = "firstborder">
-        <div class="mySlides">
           <h1 class="title1">
               Latest Release! With Progress!
           </h1>
@@ -124,15 +116,7 @@
                   aocampo@elpuig.xeill.net
               </div>
           </div>
-          <div class="image-container">
-            <img class="img1" src="images/03b471c0-c9dc-11eb-8777-42010a00001e_Keyboard_Coer_2534573842ffb01012d409439c668578b09b2c5c.webp" alt="">
-          </div>   
-        </div>
-        <div class="mySlides">
-          <div class="image-container">
-            <img class="img1" src="images/arduino.png" alt="">
-          </div>   
-        </div>
+          <img class="img1" src="images/03b471c0-c9dc-11eb-8777-42010a00001e_Keyboard_Coer_2534573842ffb01012d409439c668578b09b2c5c.webp" alt="">
       </div>
 
       <div class="secondborder">
@@ -264,22 +248,7 @@
         </div>
       </div>
     </footer>
-    <script>
-      var myIndex = 0;
-carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-    </script>
     <script src="script.js"></script>
 </body>
 </html>

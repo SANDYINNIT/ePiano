@@ -1,37 +1,38 @@
-/*.firstborder {
+.firstborder {
     background-color: #abfe78;
     position: relative;
-    width: auto;
-    height: 40vw;
+    width: 100%;
+    height: auto;
     font-family: 'Lexend Deca', sans-serif; 
     border-bottom: 0.1em black solid;
-}*/
-
-.firstborder {
-    position: relative;
-    font-family: 'Lexend Deca', sans-serif;
+    overflow: hidden;
 }
 
+/*.firstborder {
+    position: relative;
+    font-family: 'Lexend Deca', sans-serif;
+}*/
+
 .title1 {
-	color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	color: black;
+    font-size: 70px;
+    text-transform: uppercase;
     width: 400px;
     font-size: 5vh;
     position: absolute;
-    top: 10%; 
-    left: 10vw;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 .subtitle1 {
 	color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
     width: 300px;
     font-size: 3.5vh;
     position: absolute;
     top: 34%; 
     left: 10vw;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
 }
 
 .subtitle2 {
@@ -43,32 +44,37 @@
     position: absolute;
     top: 40%; 
     left: 10vw;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
 }
-img { max-width: 100%; height: auto; }
 
-@media screen and (max-width: 768px) {
-    .title1 {
-        font-size: 4vh;
-    }
-    .subtitle1 {
-        font-size: 3vh;
-    }
-    .subtitle2 {
-        font-size: 2.5vh;
-    }
-}
 
 
 /*.img1 {
     height: 40vw;
     margin-left: 39.497vw;
+    max-width: 100%;
     border-bottom: 0.1em black solid;
 }*/
 
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
 .img1 {
-    height: auto;
-    margin-left: 39.497vw;
-    max-width: 100%;
-    border-bottom: 0.1em black solid;
-    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    z-index: 0; /* Ensure the image is behind the text */
+}
+
+.container {
+    position: relative;
 }

@@ -7,11 +7,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    height: 40vw;
+    height: auto;
 }
 
 .text2border, .sub2border {
-    padding: 20px;
     min-width: 0;
     min-height: 0;
 }
@@ -34,22 +33,22 @@
     text-align: justify;
     grid-column: 1;
     overflow: hidden;
-    padding: 20px;
-    min-width: 0;
-    min-height: 0;
+    width: auto;
+    height: 40vw;
     position: relative;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .subtitles1 {
     font-family: 'Lexend Deca', sans-serif;
     position: relative;
-    width: 35em;
     font-size: 1vw;
-    text-align: center;
-    left: 10%;
-    top: 10%;
-    z-index: 10;
     color: black;
+    text-align: center;
+    padding: 5vw;
 }
 
 p {
