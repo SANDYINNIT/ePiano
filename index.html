@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -109,21 +112,6 @@
     <div class="container">  
       <div class = "firstborder">
         <div class="mySlides">
-          <h1 class="title1">
-              Latest Release! With Progress!
-          </h1>
-          
-          <div class="subtitle1">
-              Made by:
-          </div>
-          <div class="subtitle2">
-              <div>
-                  ssingh@elpuig.xeill.net
-              </div>
-              <div>
-                  aocampo@elpuig.xeill.net
-              </div>
-          </div>
           <div class="image-container">
             <img class="img1" src="images/03b471c0-c9dc-11eb-8777-42010a00001e_Keyboard_Coer_2534573842ffb01012d409439c668578b09b2c5c.webp" alt="">
           </div>   
@@ -281,5 +269,27 @@ function carousel() {
 }
     </script>
     <script src="script.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+
+gsap.to(".panel:not(:last-child)", {
+  yPercent: -100,
+  ease: Linear.easeNone,
+  stagger: .5,
+  scrollTrigger: {
+    trigger: "container",
+    start: "top top",
+    end: "+=500%",
+    scrub: 2,
+    pin: true
+  }
+});
+
+
+
+gsap.set(".panel", { zIndex: (i, target, targets) => targets.length - i });
+
+    </script>
 </body>
 </html>
