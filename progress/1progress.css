@@ -55,7 +55,7 @@ body  {
     background-color: lightblue;
 }
 
-.codeborder2 {
+.progborder2 {
     background-color: lightcyan;
     position: relative;
     width: auto;
@@ -65,7 +65,7 @@ body  {
     text-align: center;
     padding: 50px;
 }
-.codeborder3 {
+.progborder3 {
     background-color: white;
     position: relative;
     width: auto;

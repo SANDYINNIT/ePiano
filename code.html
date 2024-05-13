@@ -105,24 +105,73 @@
         <img class="img2" src="images/code.png" alt="">
     </div>
 
-    <b class="codeborder1 firstext1">
+    <b class="codeborder1 firstextt1">
       The Code we Used:
       <div class="lexend firstext">For Arduino</div>
     </b>
     <div class="codeborder3">
-      <div class="firstext1 description1">
+      <div class="codetextt1">
         <p>int BUTTON_A = 2; // Connect button A to pin 2 on the Arduino </p>
         <p> int BUTTON_B = 3; // Connect button B to pin 3 on the Arduino </p>
         <p> int BUTTON_C = 6; // Connect button C to pin 4 on the Arduino </p>
         <p> int BUTTON_D = 5; </p>
         <p>  int BUTTON_E = 4; </p>
         <p> int BUTTON_Q = 8; </p>
-        <p> int LED_PINA = 11; </p>
+        <p> int LED_PINA = 11; // For the leds </p>
         <p>  int LED_PINB = 17; </p>
         <p>  int LED_PINC = 10; </p>
         <p>  int LED_PIND = 7; </p>
         <p>  int LED_PINE = 18; </p>
         <p>  // Add more button pins as needed </p>
+        <br>int PIEZO = 12; // Buzzer or speaker pin</br>
+        <br>void setup() {</br>
+        <p>    <p>  Serial.begin(9600);  // Initialize serial communication at 9600 baud</p> </p>
+        <p>  pinMode(BUTTON_A, INPUT_PULLUP); // Set button A pin as input with internal pull-up resistor</p>
+        <p>pinMode(BUTTON_B, INPUT_PULLUP); // Set more pin buttons as input with internal pull-up resistor if needed</p>
+        <p> // Add more pins as needed</p>
+        <br> pinMode(LED_PINA, OUTPUT); // for the leds</br>
+        <p> pinMode(LED_PINB OUTPUT);</p>
+        <p>// Add more leds as needed</p>
+        <br> //Initialize piezo pin </br>
+        <p>  pinMode(PIEZO, OUTPUT);</p>
+        <p>}</p>
+        <br> void loop() { </br>
+          <p> // Read the state of button A</p>
+          <p>if (digitalRead(BUTTON_A) == LOW) {</p>
+            <p>playPianoNote(12, 230); // Play A note (440 Hz)</p>
+            <p>digitalWrite(LED_PINA, HIGH);</p>
+            <p>} else {</p>
+              <p>   digitalWrite(LED_PINA, LOW);</p>
+              <p>}</p>
+          <br>  // Read the state of button B </br>
+          <p>  if (digitalRead(BUTTON_B) == LOW) {</p>
+            <p>    playPianoNote(12, 330); // Play B note (494 Hz)</p>
+            <p>    digitalWrite(LED_PINB, HIGH);</p>
+            <p>} else {</p>
+              <p>digitalWrite(LED_PINB, LOW);</p>
+            <p>}</p>
+            <p> // Add more as needed</p>
+
+            <br> // Adding auto music </br>
+            <p>  if (digitalRead(BUTTON_Q) == LOW) {</p>
+              <p>    midi(); // Call your midi function when the button is pressed</p>
+            <p>}</p>
+            <p> // Add more buttons and notes as needed</p>
+            <p>}</p>
+
+            <br> void midi() { </br>
+            <p>digitalWrite(LED_PIND, HIGH); // For the lights to bright when it plays</p>
+            <br> tone(PIEZO, 146, 706.188118812); // Custom music</br>
+            <p>delay(784.653465347);</p>
+            <p> delay(264.851485149);</p>
+            <p> digitalWrite(LED_PIND, LOW); </p>
+            <br>// Add more tones as needed</br>
+            <p>}</p>
+            <br> void playPianoNote(int PIEZO, int frequency) { </br>
+            <p>  tone(PIEZO, frequency, 100); // Play the specified note for 100 ms</p>
+            <p>  delay(100); // Delay to ensure the note is heard</p>
+            <p>  noTone(PIEZO); // Stop the tone</p>
+            <p>}</p>
       </div>
     </div>
 

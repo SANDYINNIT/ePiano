@@ -6,8 +6,41 @@
     background-position: center;
 }
 
+.firstextt1 {
+    font-size: 0.8vw;
+    color: black;
+}
+
+.codetextt1 {
+    font-size: 0.8vw;
+    color: black;
+    margin-left: 25%;
+}
+
 .lexend {
     font-family: 'Lexend Deca', sans-serif; 
+}
+
+.codeborder2 {
+    background-color: lightcyan;
+    position: relative;
+    width: auto;
+    height: 8vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    text-align: center;
+    padding: 50px;
+}
+.codeborder3 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 170vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    bottom: 1vw;
+    padding: 10px;
+    display: inline-block;
+
 }
 
 .codeborder1 {
