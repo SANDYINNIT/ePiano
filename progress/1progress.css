@@ -1,8 +1,6 @@
 .img3 {
-    max-width: 100%;
     height: auto;
     width: 100%;
-    background-position: center;
 }
 
 .prgborder1 {
@@ -11,7 +9,6 @@
     width: auto;
     height: 9vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 50px;
 }
@@ -22,7 +19,6 @@
     width: auto;
     height: 30vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 50px;
     overflow: hidden;
@@ -31,7 +27,6 @@
 .protoandardui {
     height: auto;
     width: 20vw;
-    
 }
 
 .firstext1 {
@@ -61,7 +56,6 @@ body  {
     width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 50px;
 }
@@ -71,7 +65,6 @@ body  {
     width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 10px;
     align-items: center;
