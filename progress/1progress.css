@@ -1,6 +1,6 @@
 .img3 {
     height: auto;
-    width: 100%;
+    width: 55vw;
 }
 
 .prgborder1 {
@@ -31,6 +31,11 @@
 
 .firstext1 {
     font-size: 0.8vw;
+    color: black;
+}
+
+.note {
+    font-size: 0.6vw;
     color: black;
 }
 
@@ -65,11 +70,31 @@ body  {
     width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
+    
+    padding: 10px;
+    
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.progborder1 {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 8vw;
+    font-family: 'Lexend Deca', sans-serif; 
     text-align: center;
     padding: 10px;
     align-items: center;
 }
 
 .description1 {
-    position: absolute;
+    width: 53.5vw;
+}
+
+.bold {
+    font-weight: 600;
 }

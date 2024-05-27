@@ -27,7 +27,6 @@
     width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 50px;
 }
@@ -37,7 +36,6 @@
     width: auto;
     height: 170vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     padding: 10px;
     display: inline-block;
 
@@ -49,7 +47,6 @@
         width: auto;
         height: 9vw;
         font-family: 'Lexend Deca', sans-serif; 
-        bottom: 1vw;
         text-align: center;
         padding: 50px;
 }
@@ -67,7 +64,6 @@
     width: auto;
     height: 9vw;
     font-family: 'Lexend Deca', sans-serif; 
-    bottom: 1vw;
     text-align: center;
     padding: 50px;
 }
