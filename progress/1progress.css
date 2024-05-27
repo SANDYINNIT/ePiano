@@ -1,6 +1,6 @@
 .img3 {
-    height: auto;
     width: 55vw;
+    max-width: auto;
 }
 
 .prgborder1 {
@@ -58,7 +58,6 @@ body  {
 .progborder2 {
     background-color: lightcyan;
     position: relative;
-    width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
     text-align: center;
@@ -70,7 +69,6 @@ body  {
     width: auto;
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
-    
     padding: 10px;
     
 }
