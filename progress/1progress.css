@@ -1,6 +1,8 @@
 .img3 {
     width: 55vw;
     max-width: auto;
+    height: auto;
+    transition: width 0.3 ease-in-out;
 }
 
 .prgborder1 {
@@ -70,12 +72,22 @@ body  {
     height: 8vw;
     font-family: 'Lexend Deca', sans-serif; 
     padding: 10px;
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
-.center {
-    align-items: center;
+.progborder3-ex {
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 8vw;
+    font-family: 'Lexend Deca', sans-serif; 
+    padding: 10px;
+    justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .progborder1 {
@@ -96,3 +108,36 @@ body  {
 .bold {
     font-weight: 600;
 }
+
+@media (max-width: 1768px) {
+    .img3 {
+        width: 60vw; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 1668px) {
+    .img3 {
+        width: 69vw; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 1468px) {
+    .img3 {
+        width: 82vw; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 1268px) {
+    .img3 {
+        width: 95.5vw; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 1068px) {
+    .img3 {
+        width: 99.25vw; /* Adjust as needed */
+    }
+}
+
+
+
